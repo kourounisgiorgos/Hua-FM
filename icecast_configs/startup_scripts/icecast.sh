@@ -1,0 +1,1 @@
+nohup icecast -c icecast.xml &

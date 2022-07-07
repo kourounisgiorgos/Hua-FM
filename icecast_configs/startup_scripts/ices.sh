@@ -1,0 +1,1 @@
+nohup ices2 ices.xml &
