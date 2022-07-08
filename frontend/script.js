@@ -10,9 +10,9 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
+          name: "Gia Dio",
+          artist: "Stan x ILLEOo",
+          cover: "http://i3.ytimg.com/vi/N-glEQ8frXM/hqdefault.jpg",
           source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
           favorited: false
