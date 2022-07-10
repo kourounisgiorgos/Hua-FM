@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  icecast:
+    build: .
+    ports:
+      - "8001:8001"
+    volumes:
+      - icecast:/data/icecast
+
+volumes:
+  icecast:
