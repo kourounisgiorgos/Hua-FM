@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  ices:
+    build: .
+    volumes:
+      - ices:/data/ices
+    networks:
+      - icecast-network
+    hostname: ices
+
+networks: 
+  icecast-network: 
+    external: true
+
+volumes:
+  ices:

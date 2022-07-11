@@ -6,6 +6,13 @@ services:
       - "8001:8001"
     volumes:
       - icecast:/data/icecast
+    networks:
+      - icecast-network
+    hostname: icecast
+
+networks: 
+  icecast-network: 
+    external: true 
 
 volumes:
   icecast:
